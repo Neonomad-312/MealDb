@@ -1,0 +1,28 @@
+.meals a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #d57d1f;
+    text-decoration: none;
+    font-family: Open Sans;
+}
+
+a img {
+    max-width: 250px;
+}
+.meals {
+    width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Open Sans;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0 10px;
+}
